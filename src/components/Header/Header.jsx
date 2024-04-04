@@ -38,24 +38,8 @@ export default function Header() {
     close && close.click();
   };
 
-  const handleLogoutButtonClick = async (e) => {
-    e.preventDefault();
-    await userLogoutService()
-      .then((res) => {
-        const { status, message } = resHandler(res);
-        status && localStorage.clear();
-        navigate('/');
-        status && location.reload();
-        status && dispatch(logoutAction());
-        status &&
-          setTimeout(() => {
-            location.reload();
-            toast.success(message);
-          }, 1000);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+  const handleOpenVideo = async () => {
+    setIsOpenModal(true);
   };
 
   $(document).ready(function () {
@@ -166,7 +150,7 @@ export default function Header() {
                             }
                           >
                             <NavDropdown.Item
-                              onClick={handleLogoutButtonClick}
+                              onClick={handleOpenVideo}
                               className="dropdown-item drop-item"
                             >
                               <i

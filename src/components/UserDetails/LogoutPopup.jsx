@@ -17,7 +17,7 @@ export default function LogoutPopup({ ModalOpen, CloseModal }) {
       if (status) {
         localStorage.clear();
         navigate("/");
-        location.reload();
+        // location.reload();
         toast.success(message);
       }
     } catch (err) {

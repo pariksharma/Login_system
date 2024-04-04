@@ -54,7 +54,7 @@ export default function Login() {
               toast.success(message);
               localStorage.removeItem("redirect");
             } else {
-              toast.error("This user is unregistered, Please sign up.");
+              toast.error(message);
             }
           })
           .catch((err) => console.log(err));
