@@ -1,0 +1,6 @@
+.pg-privacypolicy-text ol li {
+    padding: 0 0 8px 20px;
+    list-style: dotted;
+    line-height: 21px;
+    word-break: break-word;
+}

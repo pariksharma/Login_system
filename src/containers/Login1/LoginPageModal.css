@@ -1,0 +1,67 @@
+.widthModal {
+    width: 80%;
+    margin: auto;
+}
+
+.widthModal .form-init {
+    padding: 0 !important;
+}
+
+.countTimerOtp {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: end;
+}
+
+.countTimerOtp p {
+    margin: 0px;
+}
+
+.custom-modal,
+.custom-modal1 {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(0) scaleY(0);
+    min-width: 500px;
+    min-height: 200px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: #fff;
+    animation-name: zoom;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes zoom {
+    from {
+        transform: translate(-50%, -50%) scaleX(0) scaleY(0);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scaleX(1) scaleY(1);
+    }
+}
+
+.accountContent .form-init {
+    padding: 0;
+}
+
+.errorVeri {
+    margin-left: 12px;
+}
+
+@media(min-width:768px) {
+    .otpErrorSen {
+        margin-left: 24px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .otpErrorSen {
+        margin-left: -22px !important;
+    }
+}

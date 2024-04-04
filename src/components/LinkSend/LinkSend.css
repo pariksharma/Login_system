@@ -1,0 +1,151 @@
+.asdz-app-link {
+    background: antiquewhite;
+    height: 449px;
+}
+
+.asdz-app-linkk {
+    margin-top: -87px;
+}
+
+.asdz-app-link .app-link .input-group-text {
+    border: 1px solid #ffba19;
+    background: #fff;
+    color: #fff;
+}
+
+.app-get-link {
+    width: 64% !important;
+}
+
+/* .asdz-app-link .app-link input[type="number"]{
+    border: 1px solid #ffba19 !important;
+    }
+    .asdz-app-link .app-link input[type="number"]:hover{
+    border: 1px solid #ffba19 !important;
+    } */
+.asdz-app-link .app-link input[type="number"]::placeholder {
+    color: #999;
+}
+
+
+.downl_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.app-link .form-control:focus {
+    border-color: #ffba19 !important;
+}
+
+
+@media (min-width: 1025px) and (max-width:1440px) {}
+
+@media (min-width: 992px) and (max-width:1024px) {}
+
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .asdz-app-link {
+        background: antiquewhite;
+        height: 638px;
+    }
+
+    .card-counter p {
+        font-size: 1.2rem !important;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+.pg-counterup {
+    background: #000;
+}
+
+.pg-platform h1 {
+    color: #fff;
+}
+
+.pg-platform span {
+    color: #ffba19;
+}
+
+.pg-platform p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-counter {
+    box-shadow: 1px 1px 8px #ffba19;
+    padding: 20px;
+    border-radius: 0 30px;
+    background: #000;
+    height: 170px;
+}
+
+.card-counter p {
+    font-size: 1.5rem;
+}
+
+.card-counter span {
+    font-size: 2rem;
+    color: #000;
+}
+
+.card-counter p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+@media (min-width: 1025px) and (max-width:1440px) {}
+
+@media (min-width: 992px) and (max-width:1024px) {
+    .card-counter span {
+        font-size: 2rem;
+        color: #000;
+    }
+
+    .card-counter p {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .circle_animated_sec h5 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+
+    .card-counter span {
+        font-size: 2rem;
+        color: #000;
+    }
+
+    .card-counter p {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .circle_animated_sec h5 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px) {}
+
+.pg-sirrevw {
+    height: 338px !important;
+}

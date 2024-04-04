@@ -1,0 +1,48 @@
+.verification-code--inputs input.form-control {
+
+
+   /* padding: 10px !important; */
+   font-size: 15px;
+
+   border: 1px solid #eeeeee;
+}
+
+.statError {
+   margin-bottom: 5px;
+   text-align: left;
+}
+
+.verification-code--inputs select.form-select {
+
+
+   padding: 10px;
+   font-size: 15px;
+   border-radius: 0;
+   border: 1px solid #eeeeee;
+}
+
+.verification-code--inputs select option {
+   color: #030200 !important;
+   font-weight: 500;
+}
+
+.verification-code--inputs select option:hover {
+   color: #fff !important;
+   background: #ffba19 !important;
+}
+
+.verification-code--inputs input.pwd {
+   position: relative;
+   z-index: 0 !important;
+}
+
+.verification-code--inputs span.cursor {
+   position: absolute;
+   right: 10px;
+   top: 7px;
+}
+
+.errorPass {
+   display: block !important;
+   text-align: left;
+}

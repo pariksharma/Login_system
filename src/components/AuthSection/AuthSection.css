@@ -1,0 +1,125 @@
+.loginsection-title h1 {
+
+  font-weight: 600;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #000;
+}
+
+.loginsection-title p {
+  text-align: center;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #999;
+}
+
+.loginsection-img img {
+  margin: 0 auto;
+  width: 100% !important;
+
+}
+
+.pg-login-section-left .owl_custom .owl-nav {
+  display: block !important;
+}
+
+.pg-login-section-left .owl-nav button {
+
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.pg-login-section-left .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-weight: 700;
+  width: 30px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px !important;
+  color: #000 !important;
+  font-size: 4rem !important;
+  cursor: pointer;
+  z-index: 5;
+  transform: translate(-70%, -50%);
+
+
+
+
+}
+
+.pg-login-section-left .owl-nav button.owl-next {
+
+  position: absolute;
+  top: 50%;
+  font-weight: 700;
+  width: 30px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px !important;
+  color: #000 !important;
+  font-size: 4rem !important;
+  cursor: pointer;
+  z-index: 5;
+  transform: translate(70%, -50%);
+  right: 0;
+
+
+}
+
+.pg-login-section-left .owl-nav button:focus {
+  outline: none;
+}
+
+.owl_custom .owl-prev,
+.owl-next {
+  display: none !important;
+}
+
+.owl_custom:hover .owl-prev {
+  display: block !important;
+}
+
+.owl_custom:hover .owl-next {
+  display: block !important;
+}
+
+.pg-login-section-left p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.pg-login-section-left .login-input input[type="tel"] {
+  display: flex;
+  width: 100%;
+  border: 1px solid #dde6ed;
+  border-radius: 4px;
+  padding: 1rem 1rem 1rem 5rem;
+  align-items: center;
+}
+
+.iti__selected-flag {
+  padding: 0 20px 0 20px !important;
+}
+
+.pg-login-card {
+  width: 80%;
+  margin: 15px auto;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.pg-applinks {
+  border-radius: 15px;
+  background: #fff;
+}
+
+.pg-login-carousel {
+  background: aliceblue;
+  box-shadow: 0 0 5px #999;
+}

@@ -1,0 +1,139 @@
+.react-tel-input .flag-dropdown {
+
+  border: 1px solid #ffba19 !important;
+}
+
+.flag.bg {
+  display: none !important;
+}
+
+.react-tel-input {
+  padding-left: 65px;
+}
+
+.react-tel-input .form-control {
+  width: 260px !important;
+  line-height: 40px !important;
+  height: 40px !important;
+  border: 1px solid #ffba19 !important;
+}
+
+/* .verification-code--inputs{
+  display: grid;
+  justify-content: center !important;
+}*/
+.verification-code--inputs input::placeholder {
+  font-size: 14px;
+  color: #c7c7c7;
+}
+
+.react-tel-input .country-list .country {
+  text-align: left;
+}
+
+.verification-code--inputs input.form-control {
+  /* padding: 8px !important; */
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #eeeeee;
+}
+
+.verification-code--inputs p.error {
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+.verification-code--inputs input.pwd {
+  position: relative;
+  z-index: 0 !important;
+}
+
+.verification-code--inputs span.cursor {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+#countdown {
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+}
+
+.bilngdiv #form-init {
+  width: 100%;
+}
+
+#form-init {
+  padding: 0 35px;
+
+}
+
+/* .forgetpwd{
+    color: #ffba19 !important;
+    border: none !important;
+    background: none !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+   text-align: end !important;
+   } */
+button.forgetpassword {
+  color: #ffba19;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: 550;
+  text-align: end;
+
+}
+
+button.resendotp:hover {
+  background: #fff;
+  color: #000;
+
+}
+
+/* .gobacklink button .signup {
+   border: none;
+   background: none;
+  color: #ffba19;
+   font-size: 1rem;
+ 
+  } */
+
+.gobacklink p {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 1rem !important;
+
+}
+
+.error {
+  color: red;
+  font-size: 12px !important;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+@media (min-width:320px) and (max-width:426px) {
+  #form-init {
+    padding: 0 15px;
+  }
+
+  .pg-login-card {
+    width: 92% !important;
+    margin: 15px auto;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 30px !important;
+  }
+}

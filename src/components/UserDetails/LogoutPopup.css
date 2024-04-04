@@ -1,0 +1,47 @@
+.cntrdiv h4 {
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.cntrdiv h5 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.bilngdiv button {
+    background-color: #fff;
+    padding: 3px 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.bilngdivfrst {
+    margin-right: 66px;
+}
+
+.bilngdiv button:hover {
+    background-color: #FFE5A9;
+    padding: 3px 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.bilngdiv .btn1 {
+    background-color: #FFBA19;
+    padding: 3px 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+
+}

@@ -1,0 +1,105 @@
+.react-tel-input .flag-dropdown {
+
+  border: 1px solid #eeeeee !important;
+}
+
+
+.react-tel-input {
+  padding-left: 0 !important;
+}
+
+.react-tel-input p.error {
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+.react-tel-input .form-control {
+  box-shadow: none;
+  width: 100% !important;
+  line-height: 40px !important;
+  height: 40px !important;
+  border: 1px solid #eeeeee !important;
+}
+
+.verification-code--inputss {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.verification-code--inputss input {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 0 4px #999;
+  width: 46px !important;
+  height: 46px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+.verification-code--inputss>div {
+  justify-content: center !important;
+}
+
+#countdown {
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+}
+
+.signuppage-sec p.error {
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+button.resendotp {
+  color: #ffba19;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  font-weight: 500;
+
+
+}
+
+button.resendotp:hover {
+  background: #fff;
+  color: #ffba19;
+
+}
+
+.gobacklink .changemobile {
+  border: 2px solid #ffba19;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100%;
+  background: #fff;
+}
+
+.gobacklink .changemobile:hover {
+  border: 2px solid #fff;
+  background: #000;
+  color: #fff !important;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+p.error {
+  color: red;
+  font-size: 12px !important;
+  margin-left: 2px;
+  margin-bottom: 0px !important;
+}
+
+.pg-termcondition p {
+  font-size: 1rem;
+  font-weight: 400;
+}

@@ -1,0 +1,103 @@
+.btn-3 {
+  border-radius: 5px;
+  background: #ffba19;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  border: none;
+  color: #000;
+  font-weight: 700;
+  position: relative;
+
+
+}
+
+.btn-3 span {
+  position: relative;
+  display: block;
+
+}
+
+.btn-3:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: #ffba19;
+  transition: all 0.3s ease;
+}
+
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: #ffba19;
+  transition: all 0.3s ease;
+}
+.btn-3:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+
+
+
+.btn-3:hover:before {
+  height: 100%;
+}
+
+.btn-3:hover:after {
+  width: 100%;
+}
+
+.btn-3 span:hover {
+  color: #ffba19;
+}
+
+.btn-3 span:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #ffba19;
+  transition: all 0.3s ease;
+}
+
+
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #ffba19;
+  transition: all 0.3s ease;
+}
+
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+
+.btn-3 span:hover:before {
+  height: 100%;
+}
+
+.btn-3 span:hover:after {
+  width: 100%;
+}
