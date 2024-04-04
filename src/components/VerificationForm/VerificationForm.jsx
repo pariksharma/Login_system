@@ -133,7 +133,9 @@ export default function VerificationForm(props) {
         !status && message && toast.error(message);
         status && message && toast.success(message);
         status && jwt_decode(data.jwt);
-        naviagate('/home')
+        if(status){
+          naviagate('/home')
+        }
         status && localStorage.setItem("jwt", data.jwt);
         status &&
           setTimeout(() => {
